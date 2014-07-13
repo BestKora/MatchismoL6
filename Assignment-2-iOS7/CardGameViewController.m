@@ -35,6 +35,10 @@
     return [[PlayingCardDeck alloc] init];
 }
 
+- (IBAction)dealPress:(id)sender {
+    self.game = nil;
+    [self updateUI];
+}
 
 - (IBAction)touchCardButton:(id)sender
 {
