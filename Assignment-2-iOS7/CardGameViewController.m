@@ -44,6 +44,7 @@
 }
 
 - (IBAction)dealPress:(id)sender {
+    self.numberOfMatchesSegment.enabled =YES;
     self.game = nil;
     [self updateUI];
 }
@@ -55,6 +56,7 @@
 
 - (IBAction)touchCardButton:(id)sender
 {
+    self.numberOfMatchesSegment.enabled =NO;
     NSUInteger cardIndex = [self.cardButtons indexOfObject:sender];
     [self.game chooseCardAtIndex:cardIndex];
     [self updateUI];
