@@ -165,10 +165,22 @@
                                     <action selector="dealPress:" destination="d88-kp-p6N" eventType="touchUpInside" id="HOB-5a-Otq"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Beh-Vb-JIr">
+                                <rect key="frame" x="198" y="432" width="102" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="2 cards"/>
+                                    <segment title="3 cards"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeNumberOfMatches:" destination="d88-kp-p6N" eventType="valueChanged" id="2pC-3j-Jgs"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="numberOfMatchesSegment" destination="Beh-Vb-JIr" id="f9X-Qy-RJL"/>
                         <outlet property="scoreLabel" destination="Fzc-y2-wQ6" id="pfK-rn-Wwr"/>
                         <outletCollection property="cardButtons" destination="Gtn-po-H5f" id="kYa-4T-UyK"/>
                         <outletCollection property="cardButtons" destination="qo0-r9-Zxx" id="tB6-jn-m92"/>
