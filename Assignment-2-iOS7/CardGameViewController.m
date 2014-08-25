@@ -17,6 +17,7 @@
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *numberOfMatchesSegment;
+@property (weak, nonatomic) IBOutlet UILabel *resultsLabel;
 
 @end
 
@@ -72,8 +73,35 @@
                               forState:UIControlStateNormal];
         cardButton.enabled = !card.matched;
     }
-    self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", self.game.score];
+    self.scoreLabel.text = [NSString stringWithFormat:@"Score: %ld", (long)self.game.score];
+        [self updateFlipResult];
 }
+
+-(void)updateFlipResult
+{
+    NSString *text=@" ";
+    if ([self.game.matchedCards  count]>0)
+    {
+        text = [text stringByAppendingString:[self.game.matchedCards componentsJoinedByString:@" "]];
+        if ([self.game.matchedCards count] == [self numberOfMatches])
+        {
+            if (self.game.lastFlipPoints<0) {
+                text = [text stringByAppendingString:[NSString stringWithFormat:@"✘ %ld penalty",(long)self.game.lastFlipPoints]];
+            } else {
+                text = [text stringByAppendingString:[NSString stringWithFormat:@"✔ +%ld bonus",(long)self.game.lastFlipPoints]];
+            }
+        } else text =[self textForSingleCard];
+    } else text = @"Play game!";
+    self.resultsLabel.text = text;
+}
+
+- (NSString *)textForSingleCard
+{
+    Card *card = [self.game.matchedCards lastObject];
+    return [NSString stringWithFormat:@" %@ flipped %@",card,(card.isChosen) ? @"up!" : @"back!"];
+}
+
+
 
 - (NSString *)titleForCard:(Card *)card
 {

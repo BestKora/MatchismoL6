@@ -16,5 +16,7 @@
 
 @property (nonatomic, readonly) NSInteger score;
 @property (nonatomic) NSUInteger numberOfMatches;
+@property (strong,nonatomic) NSArray *matchedCards;
+@property (readonly,nonatomic) NSInteger lastFlipPoints;
 
 @end

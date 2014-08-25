@@ -9,6 +9,7 @@
 @property (nonatomic, readwrite) NSInteger score;
 @property (nonatomic, strong) NSMutableArray *cards; // of Card
 @property (nonatomic,strong) NSMutableArray *faceUpCards; // of Card
+@property (readwrite,nonatomic) NSInteger lastFlipPoints;
 
 @end
 
@@ -57,32 +58,37 @@ static const int COST_TO_CHOOSE = 1;
         if (card.isChosen) {
             card.chosen =NO;
         } else {
-            // put choosen card in array self.faceUpCards
+            // match against another cards
             self.faceUpCards= [[NSMutableArray alloc] initWithArray:@[card]];
+            self.lastFlipPoints = 0;
             for (Card *otherCard in self.cards) {
                 if (otherCard.isChosen && !otherCard.isMatched) {
                     [self.faceUpCards insertObject:otherCard atIndex:0];
-                    //---------------- decision on match
+                    // decision on match
                     if ([self.faceUpCards count] == (self.numberOfMatches)) {
+                        
                         int matchScore = [card match:self.faceUpCards];
                         if (matchScore) {
-                            self.score += matchScore * MATCH_BONUS;
+                            self.lastFlipPoints = matchScore * MATCH_BONUS;
                             for (Card *faceUpCard in self.faceUpCards) {
                                 faceUpCard.matched =YES;
                             }
                             
                         } else {
-                            self.score -= MISMATCH_PENALTY;
+                            self.lastFlipPoints = - MISMATCH_PENALTY;
                             for (Card *faceUpCard in self.faceUpCards) {
                                 if (faceUpCard != card) faceUpCard.chosen =NO;
                             }
                         }
+                        self.matchedCards =[self.faceUpCards copy];
                         break;
-                    } //--------------- end of decision on match
+                    }
+                    // decision on match
                 }
             }
+            self.score+= self.lastFlipPoints - COST_TO_CHOOSE;
+            self.matchedCards =[self.faceUpCards copy];
             card.chosen = YES;
-            self.score -= COST_TO_CHOOSE;
         }
     }
 }
