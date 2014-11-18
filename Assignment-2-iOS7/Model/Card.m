@@ -8,6 +8,7 @@
 
 #import "Card.h"
 
+
 @implementation Card
 
 -(int)match:(NSArray *)otherCards
@@ -21,7 +22,7 @@
     return score;
 }
 
--(NSString *)description
+-(NSString *)desc
 {
     return self.contents;
 }
