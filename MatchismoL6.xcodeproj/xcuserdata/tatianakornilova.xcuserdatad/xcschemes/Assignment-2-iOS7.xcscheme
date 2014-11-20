@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4563565197186D80002B754"
-               BuildableName = "Assignment-2-iOS7.app"
-               BlueprintName = "Assignment-2-iOS7"
-               ReferencedContainer = "container:Assignment-2-iOS7.xcodeproj">
+               BuildableName = "MatchismoL6.app"
+               BlueprintName = "MatchismoL6"
+               ReferencedContainer = "container:MatchismoL6.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4563586197186D80002B754"
-               BuildableName = "Assignment-2-iOS7Tests.xctest"
-               BlueprintName = "Assignment-2-iOS7Tests"
-               ReferencedContainer = "container:Assignment-2-iOS7.xcodeproj">
+               BuildableName = "MatchismoL6Tests.xctest"
+               BlueprintName = "MatchismoL6Tests"
+               ReferencedContainer = "container:MatchismoL6.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4563565197186D80002B754"
-            BuildableName = "Assignment-2-iOS7.app"
-            BlueprintName = "Assignment-2-iOS7"
-            ReferencedContainer = "container:Assignment-2-iOS7.xcodeproj">
+            BuildableName = "MatchismoL6.app"
+            BlueprintName = "MatchismoL6"
+            ReferencedContainer = "container:MatchismoL6.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4563565197186D80002B754"
-            BuildableName = "Assignment-2-iOS7.app"
-            BlueprintName = "Assignment-2-iOS7"
-            ReferencedContainer = "container:Assignment-2-iOS7.xcodeproj">
+            BuildableName = "MatchismoL6.app"
+            BlueprintName = "MatchismoL6"
+            ReferencedContainer = "container:MatchismoL6.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4563565197186D80002B754"
-            BuildableName = "Assignment-2-iOS7.app"
-            BlueprintName = "Assignment-2-iOS7"
-            ReferencedContainer = "container:Assignment-2-iOS7.xcodeproj">
+            BuildableName = "MatchismoL6.app"
+            BlueprintName = "MatchismoL6"
+            ReferencedContainer = "container:MatchismoL6.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

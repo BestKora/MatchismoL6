@@ -7,8 +7,6 @@
 //
 
 #import "CardGameViewController.h"
-#import "Deck.h"
-#import "PlayingCardDeck.h"
 #import "CardMatchingGame.h"
 
 @interface CardGameViewController ()
@@ -38,10 +36,11 @@
     return _game;
 }
 
-- (Deck *)createDeck
+- (Deck *)createDeck // abstract
 {
-    return [[PlayingCardDeck alloc] init];
+    return nil;
 }
+
 
 - (NSUInteger)numberOfMatches
 {
@@ -141,7 +140,7 @@
 
 - (UIImage *)backgroundImageForCard:(Card *)card
 {
-    return [UIImage imageNamed:card.chosen ? @"cardfront" : @"cardback"];
+    return [UIImage imageNamed:card.chosen ? @"cardfront" : @"card-back"];
 }
 
 @end

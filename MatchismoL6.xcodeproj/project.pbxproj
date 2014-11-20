@@ -26,6 +26,7 @@
 		E45635A91971A8D50002B754 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E45635A41971A8D50002B754 /* PlayingCard.m */; };
 		E45635AA1971A8D50002B754 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = E45635A61971A8D50002B754 /* PlayingCardDeck.m */; };
 		E45635AD1971AB860002B754 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E45635AC1971AB860002B754 /* CardMatchingGame.m */; };
+		E4A36FB51A1E2279001DC037 /* PlayingCardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A36FB41A1E2279001DC037 /* PlayingCardGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,23 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E4563566197186D80002B754 /* Assignment-2-iOS7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment-2-iOS7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4563566197186D80002B754 /* MatchismoL6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchismoL6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4563569197186D80002B754 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E456356B197186D80002B754 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E456356D197186D80002B754 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E4563571197186D80002B754 /* Assignment-2-iOS7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment-2-iOS7-Info.plist"; sourceTree = "<group>"; };
+		E4563571197186D80002B754 /* MatchismoL6-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoL6-Info.plist"; sourceTree = "<group>"; };
 		E4563573197186D80002B754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4563575197186D80002B754 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E4563577197186D80002B754 /* Assignment-2-iOS7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assignment-2-iOS7-Prefix.pch"; sourceTree = "<group>"; };
+		E4563577197186D80002B754 /* MatchismoL6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatchismoL6-Prefix.pch"; sourceTree = "<group>"; };
 		E4563578197186D80002B754 /* CardGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameAppDelegate.h; sourceTree = "<group>"; };
 		E4563579197186D80002B754 /* CardGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameAppDelegate.m; sourceTree = "<group>"; };
 		E456357C197186D80002B754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E456357E197186D80002B754 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
 		E456357F197186D80002B754 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
 		E4563581197186D80002B754 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E4563587197186D80002B754 /* Assignment-2-iOS7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment-2-iOS7Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4563587197186D80002B754 /* MatchismoL6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoL6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4563588197186D80002B754 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E4563590197186D80002B754 /* Assignment-2-iOS7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment-2-iOS7Tests-Info.plist"; sourceTree = "<group>"; };
+		E4563590197186D80002B754 /* MatchismoL6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoL6Tests-Info.plist"; sourceTree = "<group>"; };
 		E4563592197186D80002B754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4563594197186D80002B754 /* Assignment_2_iOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment_2_iOS7Tests.m; sourceTree = "<group>"; };
 		E456359F1971A8D50002B754 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
@@ -68,6 +69,8 @@
 		E45635A61971A8D50002B754 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 		E45635AB1971AB860002B754 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
 		E45635AC1971AB860002B754 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		E4A36FB31A1E2279001DC037 /* PlayingCardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardGameViewController.h; sourceTree = "<group>"; };
+		E4A36FB41A1E2279001DC037 /* PlayingCardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +110,8 @@
 		E4563567197186D80002B754 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4563566197186D80002B754 /* Assignment-2-iOS7.app */,
-				E4563587197186D80002B754 /* Assignment-2-iOS7Tests.xctest */,
+				E4563566197186D80002B754 /* MatchismoL6.app */,
+				E4563587197186D80002B754 /* MatchismoL6Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +134,8 @@
 				E456357B197186D80002B754 /* Main.storyboard */,
 				E456357E197186D80002B754 /* CardGameViewController.h */,
 				E456357F197186D80002B754 /* CardGameViewController.m */,
+				E4A36FB31A1E2279001DC037 /* PlayingCardGameViewController.h */,
+				E4A36FB41A1E2279001DC037 /* PlayingCardGameViewController.m */,
 				E4563581197186D80002B754 /* Images.xcassets */,
 				E4563570197186D80002B754 /* Supporting Files */,
 			);
@@ -142,10 +147,10 @@
 			children = (
 				E4563578197186D80002B754 /* CardGameAppDelegate.h */,
 				E4563579197186D80002B754 /* CardGameAppDelegate.m */,
-				E4563571197186D80002B754 /* Assignment-2-iOS7-Info.plist */,
+				E4563571197186D80002B754 /* MatchismoL6-Info.plist */,
 				E4563572197186D80002B754 /* InfoPlist.strings */,
 				E4563575197186D80002B754 /* main.m */,
-				E4563577197186D80002B754 /* Assignment-2-iOS7-Prefix.pch */,
+				E4563577197186D80002B754 /* MatchismoL6-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,7 +167,7 @@
 		E456358F197186D80002B754 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E4563590197186D80002B754 /* Assignment-2-iOS7Tests-Info.plist */,
+				E4563590197186D80002B754 /* MatchismoL6Tests-Info.plist */,
 				E4563591197186D80002B754 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -188,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4563565197186D80002B754 /* Assignment-2-iOS7 */ = {
+		E4563565197186D80002B754 /* MatchismoL6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4563598197186D80002B754 /* Build configuration list for PBXNativeTarget "Assignment-2-iOS7" */;
+			buildConfigurationList = E4563598197186D80002B754 /* Build configuration list for PBXNativeTarget "MatchismoL6" */;
 			buildPhases = (
 				E4563562197186D80002B754 /* Sources */,
 				E4563563197186D80002B754 /* Frameworks */,
@@ -200,14 +205,14 @@
 			);
 			dependencies = (
 			);
-			name = "Assignment-2-iOS7";
+			name = MatchismoL6;
 			productName = "Assignment-2-iOS7";
-			productReference = E4563566197186D80002B754 /* Assignment-2-iOS7.app */;
+			productReference = E4563566197186D80002B754 /* MatchismoL6.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E4563586197186D80002B754 /* Assignment-2-iOS7Tests */ = {
+		E4563586197186D80002B754 /* MatchismoL6Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E456359B197186D80002B754 /* Build configuration list for PBXNativeTarget "Assignment-2-iOS7Tests" */;
+			buildConfigurationList = E456359B197186D80002B754 /* Build configuration list for PBXNativeTarget "MatchismoL6Tests" */;
 			buildPhases = (
 				E4563583197186D80002B754 /* Sources */,
 				E4563584197186D80002B754 /* Frameworks */,
@@ -218,9 +223,9 @@
 			dependencies = (
 				E456358D197186D80002B754 /* PBXTargetDependency */,
 			);
-			name = "Assignment-2-iOS7Tests";
+			name = MatchismoL6Tests;
 			productName = "Assignment-2-iOS7Tests";
-			productReference = E4563587197186D80002B754 /* Assignment-2-iOS7Tests.xctest */;
+			productReference = E4563587197186D80002B754 /* MatchismoL6Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -238,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E4563561197186D80002B754 /* Build configuration list for PBXProject "Assignment-2-iOS7" */;
+			buildConfigurationList = E4563561197186D80002B754 /* Build configuration list for PBXProject "MatchismoL6" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -251,8 +256,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4563565197186D80002B754 /* Assignment-2-iOS7 */,
-				E4563586197186D80002B754 /* Assignment-2-iOS7Tests */,
+				E4563565197186D80002B754 /* MatchismoL6 */,
+				E4563586197186D80002B754 /* MatchismoL6Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,6 +296,7 @@
 				E45635AA1971A8D50002B754 /* PlayingCardDeck.m in Sources */,
 				E4563576197186D80002B754 /* main.m in Sources */,
 				E45635A71971A8D50002B754 /* Card.m in Sources */,
+				E4A36FB51A1E2279001DC037 /* PlayingCardGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +313,7 @@
 /* Begin PBXTargetDependency section */
 		E456358D197186D80002B754 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E4563565197186D80002B754 /* Assignment-2-iOS7 */;
+			target = E4563565197186D80002B754 /* MatchismoL6 */;
 			targetProxy = E456358C197186D80002B754 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,9 +422,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Assignment-2-iOS7/Assignment-2-iOS7-Prefix.pch";
-				INFOPLIST_FILE = "Assignment-2-iOS7/Assignment-2-iOS7-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Assignment-2-iOS7/MatchismoL6-Prefix.pch";
+				INFOPLIST_FILE = "Assignment-2-iOS7/MatchismoL6-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = MatchismoL6;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -429,9 +436,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Assignment-2-iOS7/Assignment-2-iOS7-Prefix.pch";
-				INFOPLIST_FILE = "Assignment-2-iOS7/Assignment-2-iOS7-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Assignment-2-iOS7/MatchismoL6-Prefix.pch";
+				INFOPLIST_FILE = "Assignment-2-iOS7/MatchismoL6-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = MatchismoL6;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -451,8 +459,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Assignment-2-iOS7Tests/Assignment-2-iOS7Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Assignment-2-iOS7Tests/MatchismoL6Tests-Info.plist";
+				PRODUCT_NAME = MatchismoL6Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -469,8 +477,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Assignment-2-iOS7/Assignment-2-iOS7-Prefix.pch";
-				INFOPLIST_FILE = "Assignment-2-iOS7Tests/Assignment-2-iOS7Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Assignment-2-iOS7Tests/MatchismoL6Tests-Info.plist";
+				PRODUCT_NAME = MatchismoL6Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -479,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4563561197186D80002B754 /* Build configuration list for PBXProject "Assignment-2-iOS7" */ = {
+		E4563561197186D80002B754 /* Build configuration list for PBXProject "MatchismoL6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4563596197186D80002B754 /* Debug */,
@@ -488,21 +496,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4563598197186D80002B754 /* Build configuration list for PBXNativeTarget "Assignment-2-iOS7" */ = {
+		E4563598197186D80002B754 /* Build configuration list for PBXNativeTarget "MatchismoL6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4563599197186D80002B754 /* Debug */,
 				E456359A197186D80002B754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E456359B197186D80002B754 /* Build configuration list for PBXNativeTarget "Assignment-2-iOS7Tests" */ = {
+		E456359B197186D80002B754 /* Build configuration list for PBXNativeTarget "MatchismoL6Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E456359C197186D80002B754 /* Debug */,
 				E456359D197186D80002B754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
